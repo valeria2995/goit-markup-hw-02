@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: normal;
+  line-height: normal;
+  color: rgba(33, 33, 33, 1);
+}
+
+:root {
+  --brand-color: rgba(33, 150, 243, 1);
+  --normal-color: rgba(33, 33, 33, 1);
+  --light-text-color: rgba(117, 117, 117, 1);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+  text-decoration: none;
+}
+
+.nav-item {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--normal-color);
+}
+
+.nav-item:hover {
+  color: var(--brand-color);
+}
+
+.contact-nav-item {
+  font-weight: 500;
+  line-height: 16px;
+  color: var(--light-text-color);
+}
+
+.contact-nav-item:hover {
+  color: var(--brand-color);
+}
+
+.main-title {
+  background-color: #000000c5;
+  color: white;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.button1 {
+  background-color: var(--brand-color);
+  padding: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  border-color: var(--brand-color);
+  cursor: pointer;
+}
+
+.characteristics-subtitle {
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.characteristics-text {
+  color: var(--light-text-color);
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.personas-names {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.personas-description {
+  font-size: 16px;
+  color: var(--light-text-color);
+}
+
+.footer {
+  background-color: rgb(44, 41, 41);
+}
+
+.adress {
+  color: rgba(255, 255, 255, 1);
+}
